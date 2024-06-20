@@ -19,4 +19,25 @@
     box-sizing: border-box;
     background-color: #ffffff;
   }
+
+  .clip-0-50 {
+    clip: rect(
+      0px,
+      44px,
+      44px,
+      22px
+    ); /* Adjusted for w-11 h-11 (44px x 44px) */
+  }
+
+  .clip-50-100 {
+    clip: rect(0px, 22px, 44px, 0px); /* Adjusted for w-11 h-11 (44px x 44px) */
+  }
+
+  .right-clip {
+    clip: rect(0px, 22px, 44px, 0px); /* Adjusted for w-11 h-11 (44px x 44px) */
+  }
+
+  .left-clip {
+    clip: rect(0px, 44px, 44px, 22px);
+  }
 }

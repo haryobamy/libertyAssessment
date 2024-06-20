@@ -12,8 +12,8 @@ function Layout() {
   return (
     <div className=" h-screen relative">
       <Navbar />
-      <main className=" bg-gray-100 h-full py-6 ">
-        <div className="container mx-auto">
+      <main className=" bg-gray-100 h-full py-6 overflow-y-auto ">
+        <div className="container mx-auto xs:px-5 sm:px-5">
           <Routes>
             <Route
               path="/"
@@ -24,7 +24,7 @@ function Layout() {
               }
             />
             <Route
-              path="/interview"
+              path="/assessment"
               element={
                 <Suspensed>
                   <InterviewModule />

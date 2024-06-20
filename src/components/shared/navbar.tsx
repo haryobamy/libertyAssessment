@@ -5,8 +5,8 @@ import Logo from '../icons/Logo';
 
 const Navbar = () => {
   return (
-    <header className=" py-3 bg-white shadow sticky top-0">
-      <nav className="flex justify-between items-center  container mx-auto ">
+    <header className=" py-3 bg-white shadow sticky top-0 z-[9999]">
+      <nav className="flex justify-between items-center  container mx-auto xs:px-5 sm:px-5 xs:flex-col sm:flex-col xs:items-start sm:items-start xs:gap-3 sm:gap-3 ">
         <div className=" flex items-center gap-4">
           <span className=" bg-secondary  h-full px-4 py-5 rounded-md">
             <Logo />
